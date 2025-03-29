@@ -1,0 +1,70 @@
+main {
+    min-height: 500px;
+}
+
+#caro-banner {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#caro-banner img {
+    height: 500px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+mat-grid-list {
+    margin: 20px;
+
+}
+
+mat-grid-tile {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+mat-card-header {
+    font-size: 20px;
+    justify-content: center;
+
+}
+
+mat-card-actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+mat-card-actions p {
+    font-size: 20px;
+    color: red;
+}
+
+mat-card-actions button {
+    background-color: #3f51b5;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+mat-card-actions button:hover {
+    background-color: #283593;
+    transform: scale(1.10);
+}
+
+mat-card {
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+mat-card img {
+    height: 320px;
+    width: 360px;
+    border-radius: 10px;
+}

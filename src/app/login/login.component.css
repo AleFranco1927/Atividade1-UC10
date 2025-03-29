@@ -1,0 +1,16 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+#secao-login{
+    width: 400px;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid #0c133a;
+    padding: 10px 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
